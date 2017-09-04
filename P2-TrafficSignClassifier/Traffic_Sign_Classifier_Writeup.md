@@ -415,9 +415,10 @@ def MeNet(x):
 ```
 
 Question 3
-**Doug**: What does your final architecture look like? (Type of model, layers, sizes, connectivity, etc.) For reference on how to build a deep neural network using TensorFlow, see Deep Neural Network in TensorFlow from the classroom.
+What does your final architecture look like? (Type of model, layers, sizes, connectivity, etc.) For reference on how to build a deep neural network using TensorFlow, see Deep Neural Network in TensorFlow from the classroom.
+
 Answer:
-Modified LeNet Architecture with dropouts added
+**Doug**: Modified LeNet Architecture with dropouts added
 Input (32x32x1) 
 -> Convolutional 28x28x32 -> ReLu 
 -> Max pool (stride of 2) 5x5x64 -> flatten 1600 -> dropout (.6 keep) 
