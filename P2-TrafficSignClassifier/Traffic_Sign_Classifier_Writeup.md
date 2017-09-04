@@ -7,6 +7,8 @@
 
 This is a write up based on the Jupyter notebook that successfully implemented the project requirements in Python. 
 
+>**Note:** I struggled with this project because of my relative inexperience with python. I received help from various websites for tips. An important aid used was the example at https://github.com/tdanyluk/CarND-Traffic-Sign-Classifier-Project.  I also used the example images from https://github.com/juano2310/CarND-Traffic-Sign-Classifier-Project-Juan with conversion.
+
 ---
 ## Step 0: Load The Data
 
