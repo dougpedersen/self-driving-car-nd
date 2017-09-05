@@ -722,6 +722,12 @@ X_final_graph = X_final_test
 
 ![png](output_30_13.png)
 
+**Summary of the added images**
+
+**Doug**: image1 and image3 have been "vandalized" to make them look like different signs the the human eye. But after preprocessing, the gray scale versions are probably closer to the intended sign.
+
+image5 has some noise on one of the letters, but it is scaled to a smaller percentage of the image than training images. 
+
 
 ### Predict the Sign Type for Each Image
 
@@ -939,6 +945,14 @@ print("Overall precision on the new images: {:.2f}%".format(100*goods/len(y_fina
 ```
 
     Overall precision on the new images: 85.71%
+
+
+**Summary of model performance on the added images**
+
+**Doug**: The accuracy of the predictions on the new images is 85.7% versus 96.1% on the original test set. There really isn't enough new data to say that the difference is significant.
+
+Since the sign in the failed prediction, image5, was scaled to a smaller percentage of the image than training images, maybe I should have cropped the image or augmented the training data set with more sign size variation.
+
 
 
 ### Output Top 5 Softmax Probabilities For Each Image Found on the Web
